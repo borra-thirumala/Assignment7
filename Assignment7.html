@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* tag name selector */
+        h1{
+            color:blue;
+        }
+
+        /* class name selector */
+        .q1{
+            font-size: 120px;
+        }
+        /*id selecotor*/
+        #id1{
+            color: rgb(255, 68, 0);
+        }
+        /*class name selector */
+        .q2{
+            color:rgb(255, 0, 217);
+        }
+        /*universal selector*/
+        *{
+            background-color:aqua;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        p,.head1,#head2{
+            color:rgb(23, 97, 226);
+        }
+
+
+
+        table,td,th{
+
+border: 1px solid black;
+border-collapse: collapse;
+height: 70px;
+}
+table.center {
+
+margin-left : auto;
+margin-right : auto;
+}
+table.center1 {
+margin:auto;
+}
+
+
+    </style>
+    <link rel = "stylesheet" href="../CSS/style1.css"/>
+</head>
+<body>
+    <h2 class="q1 q2">SIMPLE SELECTORS</h2>
+    <h2 id="id1">Introduction</h2>
+    <p style="font-size: 20px;">CSS stands for Cascading Style Sheets.
+        CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+        CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+        External stylesheets are stored in CSS files.</p>
+
+
+    <!--grouping elements-->
+    <p>The grouping selector selects all the HTML elements with the same style definitions.The class selector selects HTML elements with a specific class attribute.
+    To select elements with a specific class, write a period (.) character, followed by the class name.The id selector uses the id attribute of an HTML element to select a specific element.
+    The id of an element is unique within a page, so the id selector is used to select one unique element!
+    To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+    <h1 class="head1">HTML</h1>
+    <h2 id="head2">CSS</h2>
+
+    <hr> <hr> 
+
+    <center><h3><i>Table with Different Background-Colors using Simple Selectors</i></h3>
+    <table>
+        <tr>
+            <td style="background-color: darkorange;">Rohit Sharma</td>
+            <td style="background-color: blue;">ViratKohli</td>
+            <td style="background-color:darkgreen;">Hardik Pandya</td>
+            <td  style="background-color:blueviolet;">Surya Kumar</td>
+            <td style="background-color: yellow;">Ravindra Jadeja</td>
+        </tr>
+        <tr>
+            <td style="background-color:lawngreen;">Pat Cummins</td>
+            <td style="background-color: bisque;">David Warner</td>
+            <td style="background-color: rgb(233, 99, 201)">Travis Head </td>
+            <td style="background-color: rgb(135, 250, 221);">Glen Maxwell</td>
+            <td style="background-color: red;">Mitchell Starc</td>
+            
+        </tr>
+        <tr><td style="background-color: rgb(228, 162, 207);">Jos Buttler</td>
+            <td style="background-color: rgba(24, 154, 139, 0.71);">Jhonny Bairstow</td>
+            <td style="background-color: rgb(247, 215, 173);">Liam Livingston</td>
+            <td style="background-color: rgb(86, 86, 193);">Harry Brook</td>
+            <td style="background-color: rgb(136, 240, 92);">Joseph Archer</td></tr>
+        <tr><td style="background-color: rgb(21, 248, 112);">Quinten Decock</td>
+            <td style="background-color: gray;">Henrich Classen</td>
+            <td style="background-color: blueviolet;">Aiden Markram</td>
+            <td style="background-color:rgb(79, 251, 251);">David Miller</td>
+            <td style="background-color: antiquewhite;">Kagiso Rabada</td></tr>
+        <tr><td style="background-color: brown;">Kane Williamson</td>
+            <td style="background-color:cornsilk">Rachin Ravindra</td>
+            <td style="background-color: rgb(60, 164, 39);">Mitchel Santner</td>
+            <td style="background-color: orange;">Gleen Philips</td>
+            <td style="background-color: rgb(239, 78, 105);">Trent Boult</td></tr></center>
+    </table>
+
+</body>
+</html>
